@@ -55,13 +55,15 @@
 
 并且，以 `Map` 结尾的类都实现了 `Map` 接口。
 
-![](./images/Java-Collections.jpeg)
+![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/source-code/dubbo/java-collection-hierarchy.png)
+
+<p style="text-align:center;font-size:13px;color:gray">https://www.javatpoint.com/collections-in-java</p>
 
 ### 1.1.2. 说说 List,Set,Map 三者的区别？
 
 - `List`(对付顺序的好帮手)： 存储的元素是有序的、可重复的。
 - `Set`(注重独一无二的性质): 存储的元素是无序的、不可重复的。
-- `Map`(用 Key 来搜索的专家): 使用键值对（kye-value）存储，类似于数学上的函数 y=f(x)，“x”代表 key，"y"代表 value，Key 是无序的、不可重复的，value 是无序的、可重复的，每个键最多映射到一个值。
+- `Map`(用 Key 来搜索的专家): 使用键值对（key-value）存储，类似于数学上的函数 y=f(x)，“x”代表 key，"y"代表 value，Key 是无序的、不可重复的，value 是无序的、可重复的，每个键最多映射到一个值。
 
 ### 1.1.3. 集合框架底层数据结构总结
 
